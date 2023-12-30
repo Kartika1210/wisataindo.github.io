@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+  }
+
+.ImageLogo {
+    width: 26px;
+    height: 26px;
+}
+
+nav {
+    background-color: white;
+    padding: 8px;
+    padding-left: 80px;
+    position: fixed;
+    top: 0;
+  }
+
+nav li {
+    padding-top: 200px;
+    display: inline;
+    list-style-type: none;
+    margin: 12px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+
+    color: black;
+}
+
+nav a:hover {
+    color: #ffdec7;
+  }
+
+nav a:active{
+    color: #601D1D;
+    font-weight: bold;
+}
+
+
+.title {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    padding-left: 110px;
+    gap: 148px;
+    background-color: white;
+    margin-top: 110px;
+}
+
+.text {
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
+
+
+.text h1 {
+    color: #29363C;
+    font-size: 48px;
+    font-weight: 800px;
+    margin-bottom: 12px;
+}
+
+.text p {
+    color: rgba(41, 54, 60, 0.90);
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+
+.button{
+    display: inline-flex;
+    width: 174px;
+    padding: 12px 48px;
+    border-radius: 12px;
+    border-color: #FFEBDD;
+    background: #FFEBDD;
+    gap: 12px;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover{
+    background:#ffdec7;
+    font-weight:500;
+}
+
+
+.title img {
+    width: 590px;
+    height: 590px;
+    margin-bottom: 200px;
+    margin-right: 50px;
+    z-index: 9999;
+}
+
+
+
+#content {
+    float: left;
+    width: 60%;
+  }
+
+.card {
+    margin-top: 55px;
+    margin-left: 70px;
+    padding: 10px;
+    
+  }
+
+
+.utama{
+    width: 100%;
+    overflow: hidden;
+}
+   
+.isi{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+   
+.isi_gambar{
+    width: 25%; 
+    float: left;  
+}
+
+.isi2{
+    width: 400%;
+}
+
+.utama img{
+    width: 600px;
+    height: 353px;
+    border-radius: 10px;
+    float: left;
+   }
+
+   .isi22{
+    width: 400%;
+    
+   }
+
+   .isi3{
+    width: 400%;
+    
+   }
+
+
+.text-title {
+    color: #29363C;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.rectangle {
+    width: 100px;
+    height: 4px;
+    border-radius: 2px;
+    margin-top: 12px;
+
+    background-color: #601D1D;
+    
+}
+
+.text-article{
+    color: rgba(41, 54, 60, 0.90);
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 50px;
+}
+
+aside{
+    float: right;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 40%;
+}
+
+.figure1 {
+    border-radius: 10px;
+}
+
+.figure2 {
+    border-radius: 10px;
+    padding-left: 170px;
+    padding-right: 170px;
+    margin-top: -50px;
+}
+
+.profile figcaption {
+    font-size: 24px;
+    padding-left: 170px;
+    padding-right: 170px;
+    text-align: center;
+}
+
+.profile p {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align:center;
+}
+
+.profile button{
+    width: 400px;
+    height: 40px;
+    border-radius: 12px;
+    border-color:#F6F6F6;
+    background-color: #F6F6F6;
+    margin-left: 70px;
+    margin-right: 70px;
+    border: none;
+    text-decoration: none;
+    
+}
+
+.profile button:hover{
+    color: black;
+    font-weight: lighter;
+    background-color: #FFEBDD;
+}
+
+footer {
+    margin-top: 100px;
+    padding: 5px;
+    color: #fff;
+    background-color: #601D1D;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 1000px){
+    @media screen and (max-width: 480px){
+    /* heaader */
+    .title {
+        display: inline-flex;
+        width: 100%;
+        height: 360px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 80px;
+        background-color: #fff9f5;
+    }
+
+    .text{
+        text-align: center;
+    }
+
+    .text h1 {
+        color: #29363C;
+        font-size: 42px;
+        font-weight: 400px;
+        margin-bottom: 12px;
+    }
+    
+    .text p {
+        color: rgba(41, 54, 60, 0.90);
+        font-size: 24px;
+        margin-top: 12px;
+    }
+    
+    .button{
+        display: inline-flex;
+        width: 174px;
+        padding: 12px 48px;
+        border-radius: 12px;
+        border-color: #FFEBDD;
+        background: #FFEBDD;
+        gap: 12px;
+        border: none;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+
+
+    }
+    
+    .button:hover{
+        background:#ffdec7;
+        font-weight:500;
+    }
+    
+    
+    .title img {
+        display: none;
+    }
+
+    /* artikel */
+
+    .text-title {
+        color: #29363C;
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 12px;
+    }
+    
+    .rectangle {
+        width: 100px;
+        height: 3px;
+        border-radius: 2px;
+        margin-top: 12px;
+    
+        background-color: #601D1D;
+        
+    }
+    
+    .text-article{
+        color: rgba(41, 54, 60, 0.90);
+        font-size: 12px;
+        font-weight: 200;
+        padding-right: 0px;
+    }
+
+
+    .utama img{
+        width: 1000px;
+        height: 500px;
+        border-radius: 10px;
+        float: left;
+       }
+    
+
+    .card {
+        margin-top: 55px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 10px;
+        
+      }
+
+    /* aside */
+    
+    #content,
+    aside {
+      width: 100%;
+      margin-top: 80px;
+      padding: 0;
+    }
+
+    .figure1 {
+        border-radius: 10px;
+        margin-left: 230px;
+        margin-right: 230px;
+    }
+    
+    .figure2 {
+        border-radius: 10px;
+        padding-left: 170px;
+        padding-right: 170px;
+        margin-top: -50px;
+        margin-left: 230px;
+        margin-right: 230px;
+    }
+    
+    .profile figcaption {
+        font-size: 24px;
+        padding-left: 200px;
+        padding-right: 160px;
+        text-align: center;
+    }
+
+    .profile p {
+        padding-left: 260px;
+        padding-right: 240px;
+        text-align:center;
+    }
+    
+    .profile button{
+        width: 400px;
+        height: 40px;
+        border-radius: 12px;
+        border-color:#F6F6F6;
+        background-color: #F6F6F6;
+        margin-left: 280px;
+        margin-right: 280px;
+        border: none;
+        text-decoration: none;
+        
+    }
+
+
+
+    }
+  }
